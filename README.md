@@ -1,17 +1,22 @@
-bingo_phpを作ったが、間違えた順序で、作ってしまったので、soucetreeとgithubでうまくいかなかった。
+# なぜpapapa-wpを作ったのか
+SourcetreeとGithub連携の練習のため。
+以前にbingo_phpというプロジェクトを作ったが、間違えた順序で作り、 SouceTreeとGithubの連携が正しく行えなかった。
+そのため、SouceTreeとGithubの連携が正しく行える手順を再確認するために、改めてbingo_php_newを作成した。
 
-そのためbingo_php_newを作って、気をつけて順序よくpushなどをした結果、うまく言った。
+# 使用ツール
+・VSCode
 
-＜やった順序＞
+・SourceTree
 
-1.自分がgithub,soucetreeのリモートリポジトリにあげたいファイル、フォルダを用意。
+・Github
 
-2.まず自分のgithubページからnewで新しいrepositoryを作る。
+# 私が行った手順
+1. Github,SourceTreeのリモートリポジトリにあげたいファイル、フォルダをローカル環境に用意。
 
-⚠️この時、Initialize this repository with a READMEにチェックは入れない。
-
+2. ブラウザにて、自分のGithubページから「new」で新しいrepositoryを作る。
+この時、「Initialize this repository with a README.md」にチェックは入れない。
 チェックを入れてしまった場合、この時点で自動でinitial commitが作られてしまう。
 
-3.次はsoucetreeへ
+⚠️「bingo_php」ではチェックを入れていたため連携が行えなかった。
 
-soucetreeでpush、commitなどをしていく。
+3. SouceTreeにて、1.のファイル、フォルダをpush、commitなど行っていく。 
