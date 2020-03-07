@@ -17,6 +17,4 @@ SourcetreeとGithub連携の練習のため。
 この時、「Initialize this repository with a README.md」にチェックは入れない。
 チェックを入れてしまった場合、この時点で自動でinitial commitが作られてしまう。
 
-⚠️「bingo_php」ではチェックを入れていたため連携が行えなかった。
-
 3. SouceTreeにて、1.のファイル、フォルダをpush、commitなど行っていく。 
